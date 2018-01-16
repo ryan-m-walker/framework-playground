@@ -1,0 +1,5 @@
+@import '../../shared/Label/label';
+
+$BLOCK: input;
+
+@include Label($BLOCK);

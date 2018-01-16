@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="uni.css">
+</head>
+<body>
+
+  <!-- <button 
+    type="text" 
+    data-uni-button
+    data-uni-el="myButton">
+  </button> -->
+
+  <div class="uni-input" data-uni-input="myInput">
+    <label class="uni-input__label">Text Input</label>
+    <input class="uni-input__textfield" type="text">
+    <div class="uni-input__underline"></div>
+  </div>
+
+  <div class="uni-input" data-uni-input="anotherInput">
+    <label class="uni-input__label">Text Input</label>
+    <input class="uni-input__textfield" type="text">
+    <div class="uni-input__underline"></div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <div class="uni-radio">
+    <label
+      class="uni-radio__label" 
+      for="option-1">
+      Option 1
+    </label>
+    <input 
+      class="uni-radio__input"
+      type="radio" 
+      name="radio-demo" 
+      value="option-1">
+    <div class="uni-radio__button"></div>
+  </div>
+
+  <div class="uni-radio">
+    <label
+      class="uni-radio__label"
+      for="option-2">
+      Option 2
+    </label>
+    <input 
+      type="radio" 
+      name="radio-demo" 
+      value="option-2">
+    <div class="uni-radio__button"></div>
+  </div>
+
+  <div class="uni-radio">
+    <label
+      class="uni-radio__label"
+      for="option-3">
+      Option 3
+    </label>
+    <input 
+      type="radio" 
+      name="radio-demo" 
+      value="option-3">
+    <div class="uni-radio__button"></div>
+  </div>
+
+  <button id="test-button">Test</button>
+
+  <button id="get-value">Get Value</button>
+
+  <button id="set-value">Set Value</button>
+
+  <button id="clear-value">Clear Value</button>
+
+  <button id="log-el">Log Element</button>
+
+  <button id="disable-button">Disable</button>
+
+  <button id="enable-button">Enable</button>
+
+  <script src="uni.js"></script>
+  <script src="test.js"></script>
+</body>
+</html>

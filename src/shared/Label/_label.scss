@@ -1,0 +1,25 @@
+@import '../../variables';
+
+@mixin Label($blockName) {
+  .#{$PREFIX}-#{$blockName}__label {
+    font-family: sans-serif;
+    position: absolute;
+    top: 6px;
+    transition: 
+      transform 180ms,
+      color 200ms;
+
+    &--active {
+      color: teal;
+    }
+
+    &--error {
+      color: orangered;
+    }
+
+    &--active,
+    &--filled {
+      transform: translateY(-16px);
+    }
+  }
+}

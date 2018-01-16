@@ -1,0 +1,19 @@
+$BLOCK: 'input';
+
+.uni-input {
+  width: 200px;
+  position: relative;
+  margin-top: 20px;
+  box-sizing: border-box;
+
+  &__textfield {
+    box-sizing: border-box;
+    padding: 6px;
+    padding-left: 0;
+    font-size: 14px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+  }
+}
+

@@ -1,0 +1,24 @@
+@import '../../variables';
+
+@mixin Underline($blockName) {
+  .#{$PREFIX}-#{$blockName}__underline {
+    box-sizing: border-box;
+    height: 3px;
+    background: teal;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: transform 250ms;
+    transform: scaleX(0);
+
+    &--active {
+      transform: scaleX(1);
+    }
+
+    &--error {
+      color: orangered;
+      transform: scaleX(1);
+    }
+  }
+}
